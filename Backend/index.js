@@ -5,6 +5,7 @@ const app = express()
 const bodyParser = require("body-parser")
 const cors = require("cors")
 app.use(express.json())
+app.use(cors())
 app.listen(3000, () =>{
     console.log("server is running on port 3000...");
 })
