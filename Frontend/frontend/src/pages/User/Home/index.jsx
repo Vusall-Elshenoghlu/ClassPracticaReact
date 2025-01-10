@@ -6,6 +6,7 @@ function Home() {
   return (
     <>
       <HeroSection/>
+      <br /><br />
       <UserProducts/>
     </>
   )
